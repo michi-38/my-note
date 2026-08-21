@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #FBF3F0;
+    width: 1200px;
+  }
+
+  .wrap {
+    padding: 56px 64px;
+  }
+
+  .label {
+    display: inline-block;
+    background: #E8817A;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 8px 20px;
+    border-radius: 999px;
+    margin-bottom: 28px;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 44px 48px;
+    box-shadow: 0 4px 14px rgba(180, 110, 100, 0.12);
+    border: 2px solid #F3D9D3;
+  }
+
+  .row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 18px 0;
+    border-bottom: 2px solid #F6E2DE;
+  }
+
+  .row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .row:first-child {
+    padding-top: 0;
+  }
+
+  .icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #F6E2DE;
+    color: #8F1E14;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  .text {
+    font-size: 32px;
+    line-height: 1.6;
+    color: #1A0C0A;
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="label">この章のまとめ</span>
+
+    <div class="card">
+      <div class="row">
+        <div class="icon">✓</div>
+        <div class="text">優しさだけでは脈ありの証拠にならない</div>
+      </div>
+      <div class="row">
+        <div class="icon">✓</div>
+        <div class="text">既読・いいねの速さは判断材料にならない</div>
+      </div>
+      <div class="row">
+        <div class="icon">✓</div>
+        <div class="text">無意識の行動にこそ本音が出る</div>
+      </div>
+      <div class="row">
+        <div class="icon">✓</div>
+        <div class="text">迷ったら「人による比較」「場面による比較」に戻る</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
